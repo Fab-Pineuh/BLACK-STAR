@@ -1,5 +1,5 @@
 {
-    "name": "black-star",
+    "name": "blackstar",
     "title": "BLACK STAR",
     "description": "The Black Star system for FoundryVTT!",
     "version": "0.0.1",
@@ -7,9 +7,18 @@
     "compatibleCoreVersion": "0.7.9",
     "templateVersion": 2,
     "author": "P.Fabien alias <A-Rtichaud> ; F.Wesley alias <Delamain>",
-    "esmodules": ["modules/blackstar.js"],
-    "styles": ["css/blackstar.css"],
-    "scripts": [],
+    "esmodules": [
+      "modules/blackstar.js",
+      "blackstar_actor-sheet.js"
+    ],
+    "styles": [
+      "css/blackstar.css",
+      "blackstar_actor-sheet.css"
+    ],
+    "scripts": [
+      "scripts/blackstar_load-races.js",
+      "scripts/blackstar_handle-race-selection.js"
+    ],
     "packs": [],
     "languages": [],
     "gridDistance": 1.5,
