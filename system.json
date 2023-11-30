@@ -10,11 +10,11 @@
     "author": "P.Fabien alias <A-Rtichaud> ; F.Wesley alias <Delamain>",
     "esmodules": [
       "modules/blackstar.js",
-      "blackstar_actor-sheet.js"
+      "modules/blackstar_actor-sheet.js"
     ],
     "styles": [
       "css/blackstar.css",
-      "blackstar_actor-sheet.css"
+      "css/blackstar_actor-sheet.css"
     ],
     "scripts": [
       "scripts/blackstar_load-races.js",
